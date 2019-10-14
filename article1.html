@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JomTravel</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: sans-serif;
+        font-size: 28px;
+        margin: 0;
+        padding: 20px;
+        background: #f1f1f1;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #052F77;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+      }
+
+      li {
+        float: right;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        color: #4CAF50;
+      }
+
+      .active { color: rgba(255, 255, 255, 0.5); }
+      /* End Nav */
+
+      .footer {
+         position: relative;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: #052F77;
+         color: white;
+         text-align: center;
+      }
+      /* End Footer */
+
+      * {
+        box-sizing: border-box;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+         background-color: white;
+         padding: 20px;
+         margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      .block-20 {
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 250px;
+        display: block; }
+
+      .caption {
+        font-size: 18px;
+        text-decoration: none;
+        color: #000000;
+      }
+
+      .caption:hover {
+        color: #f85959;
+      }
+
+      </style>
+      </head>
+      <body>
+        <a id="top"></a>
+
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li style="float:left"><a>Jom, Travel!</a></li>
+        </ul>
+
+        <div class="row">
+          <div class="leftcolumn">
+            <div class="card">
+              <h2>3 tempat paling cantik di dunia! Tak sangka Malaysia pun tersenerai</h2>
+              <h5>August 31, 2019. Tags: Culture, Travel.</h5>
+              <a class="block-20" style="background-image: url('images/image_2.jpg'); height: 450px;"></a>
+              <p>Mengembara dan jalan-jalan mengelilingi dunia merupakan impian hampir semua orang. Jadi pada artikel hari ini, kami ingin kongsikan 3 tempat paling cantik menurut persatuan pelancong sedunia.</p>
+
+              <h3>3. Melaka Bandar Bersejarah</h3>
+              <a class="block-20" style="background-image: url('images/melaka.jpg'); height: 400px;"></a>
+              <p>Melaka adalah salah satu negeri di Malaysa yang terletak di tepi Selat Malaka. Kota tua ini merupakan tempat persinggahan Cheng Ho sehingga ia menjadi dataran persahabatan Malaysia-Cina. Ada banyak tempat yang boleh disinggahi di Melaka.</p>
+
+              <h3>2. Zhangjiajie National Forest Park, China</h3>
+              <a class="block-20" style="background-image: url('images/China.jpg'); height: 400px;"></a>
+              <p>Zhangjiajie National Forest Park yang berada di Provinsi Hunan, China ini merupakan Situs Warisan Dunia UNESCO pertama Negeri Tirai Bambu. Obyek wisata ini dikenal karena pilar-pilar batu yang menjulang tinggi.</p>
+
+              <h3>1. South Island, New Zealand</h3>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/_eMAXOp2PvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <p>Di tempat pertama ialah South Island, New Zealand. Negara yang bersebelahan dengan Australia ini wajib untuk dilawati sekali sepanjang hidup. Pakej percutian ke New Zealand selalunya memakan masa 14 hari meliputi kedua-dua North dan South Island. Dengan JomTravel, anda boleh dapatkan pakej pelancongan paling berpatutan!</p>
+            </div>
+          </div>
+          <div class="rightcolumn">
+            <div class="card">
+              <h2>Penulis</h2>
+              <center><img src="images/person_1.jpg" style="border-radius: 50%; width:200px;" alt="Avatar">
+              <p style="font-size:20px; color:darkblue">Chong Wei, 29 Tahun</p></center>
+              <p style="font-size:20px">Saya seorang penulis dan pengembara. Bukan nak berlagak tapi buku passport saya pun dah penuh.</p>
+            </div>
+            <div class="card">
+              <h3>Artikel Viral</h3>
+              <a href="article1.html" class="block-20" style="background-image: url('images/image_2.jpg');"></a>
+              <a href="article1.html" class="caption">3 tempat paling cantik di dunia! Tak sangka Malaysia pun tersenerai</a><hr>
+
+              <a href="#" class="block-20" style="background-image: url('images/image_8.jpg');"></a>
+              <a href="#" class="caption">Pakej melancong dengan caravan ala-ala hippies di Amerika Syarikat</a><hr>
+
+              <a href="#" class="block-20" style="background-image: url('images/image_7.jpg');"></a>
+              <a href="#" class="caption">Wanita ini kongsi kisahnya mengelilingi Eropah seorang diri</a><hr>
+
+              <a href="#" class="block-20" style="background-image: url('images/image_3.jpg');"></a>
+              <a href="#" class="caption">Bekas CEO jual syarikatnya untuk mengembara bersama keluarga</a>
+            </div>
+          </div>
+        </div>
+
+
+  </body>
+
+  <footer>
+    <div class="footer">
+      <p style="font-size: 20px"> <br> Hak Cipta Terpelihara &copy; <script>document.write(new Date().getFullYear());</script> | Laman sesawang ini dihasilkan oleh Khairul Imran <br><br> </p>
+    </div>
+  </footer>
+</html>
